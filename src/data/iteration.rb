@@ -5,15 +5,9 @@ class Iteration < BaseClassForDataClasses
                 :project_id,
                 :length,
                 :team_strength,
-                :story_ids,
+                :stories,
                 :start,
                 :finish,
-                :velocity,
-                :points,
-                :effective_points,
-                :accepted,
-                :created,
-                :analytics,
                 :kind
 
   def initialize(values = {})
